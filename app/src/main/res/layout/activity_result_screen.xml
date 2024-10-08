@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultScreen"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#F2E46A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tic-Tac-Toe"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:id="@+id/resultTxt"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start  Match"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#DB1313"
+        android:textColor="#ffffff"
+        android:id="@+id/resetBtn"
+        />
+
+</LinearLayout>
